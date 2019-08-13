@@ -1,5 +1,10 @@
 package DynamicProgrammer.Fibonacci;
 
+/*
+已知第0项是0，第1项是1，第2项是1，接下来的项都满足值等于前两项的和。用整形数组保存已处理好的结果。
+*/
+
+
 public class Solution {
 
     public int Fibonacci(int n)
