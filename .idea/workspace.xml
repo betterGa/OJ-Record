@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0134f6ba-9adc-49cc-bfad-98fd4b5d9b87" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgrammer/Triangle/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgrammer/Triangle/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths2/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DynamicProgrammer/Triangle/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DynamicProgrammer/Triangle/Solution.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,63 +36,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/WordBreak/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths2/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="114">
+              <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
               <folding>
-                <element signature="e#0#1478#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/ClimbingStairs/Solution.java">
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths2/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/Fibonacci/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/MaximumSubarry/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="266">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
-                <element signature="e#0#1149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/RectCover/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/Triangle/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#1293#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,9 +94,13 @@
         <option value="$PROJECT_DIR$/src/test/java/TestSubString.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/WordBreak/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/WordBreak/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestFunction.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/Triangle/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/Triangle/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestFunction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths2/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths2/Solution.java" />
       </list>
     </option>
   </component>
@@ -167,8 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,80 +156,15 @@
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammer" type="462c0819:PsiDirectoryNode" />
-              <item name="Fibonacci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammer" type="462c0819:PsiDirectoryNode" />
-              <item name="MaximumSubarry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammer" type="462c0819:PsiDirectoryNode" />
-              <item name="RectCover" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammer" type="462c0819:PsiDirectoryNode" />
-              <item name="Triangle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammer" type="462c0819:PsiDirectoryNode" />
-              <item name="WordBreak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,11 +181,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="DynamicProgrammer.UniquePaths2" />
+      <recent name="DynamicProgrammer.UniquePaths" />
       <recent name="DynamicProgrammer.Triangle" />
       <recent name="DynamicProgrammer.WordBreak" />
       <recent name="DynamicProgrammer.MaximumSubarry" />
-      <recent name="DynamicProgrammer.RectCover" />
-      <recent name="DynamicProgrammer.ClimbingStairs" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -303,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.minimumTotal">
+  <component name="RunManager" selected="JUnit.SolutionTest.uniquePathsWithObstacles">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -330,13 +230,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestFunction.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.uniquePaths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgrammer.UniquePaths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestFunction" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="DynamicProgrammer.UniquePaths" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgrammer.UniquePaths.SolutionTest" />
+      <option name="METHOD_NAME" value="uniquePaths" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -347,13 +253,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestFunction.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.uniquePathsWithObstacles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgrammer.UniquePaths2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestFunction" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="DynamicProgrammer.UniquePaths2" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgrammer.UniquePaths2.SolutionTest" />
+      <option name="METHOD_NAME" value="uniquePathsWithObstacles" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -437,19 +349,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestFunction.test3" />
-      <item itemvalue="JUnit.TestFunction.test4" />
       <item itemvalue="JUnit.TestFunction.test5" />
       <item itemvalue="JUnit.SolutionTest.minimumTotal" />
       <item itemvalue="JUnit.TestFunction.test6" />
+      <item itemvalue="JUnit.SolutionTest.uniquePaths" />
+      <item itemvalue="JUnit.SolutionTest.uniquePathsWithObstacles" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.minimumTotal" />
+        <item itemvalue="JUnit.SolutionTest.uniquePathsWithObstacles" />
         <item itemvalue="JUnit.TestFunction.test6" />
+        <item itemvalue="JUnit.SolutionTest.uniquePaths" />
+        <item itemvalue="JUnit.SolutionTest.minimumTotal" />
         <item itemvalue="JUnit.TestFunction.test5" />
-        <item itemvalue="JUnit.TestFunction.test4" />
-        <item itemvalue="JUnit.TestFunction.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -469,43 +381,44 @@
       <workItem from="1565661780826" duration="21490000" />
       <workItem from="1565735716746" duration="97000" />
       <workItem from="1565833687048" duration="23567000" />
+      <workItem from="1565918575538" duration="18377000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 26m 25s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 14h 51m 36s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 27m 42s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 07m 47s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 49m 05s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 12m 01s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 49m 44s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 14m 43s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 50m 38s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 23m 26s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 52m 09s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 30m 55s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 52m 47s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 31m 07s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 53m 24s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 31m 46s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 20h 56m 59s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 32m 47s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minimumTotal - 2019.08.15 at 21h 03m 00s.xml">
-      <configuration name="SolutionTest.minimumTotal" configurationId="JUnit" />
+    <history-entry file="SolutionTest_uniquePathsWithObstacles - 2019.08.16 at 18h 40m 34s.xml">
+      <configuration name="SolutionTest.uniquePathsWithObstacles" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53247000" />
+    <option name="totallyTimeSpent" value="71624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -520,18 +433,18 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64220876" weight="0.3253833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64220876" weight="0.24190801" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13993949" />
       <window_info anchor="right" id="Database" order="3" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -544,10 +457,10 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.64220876" visible="true" weight="0.3253833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.64220876" visible="true" weight="0.20954004" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -556,7 +469,7 @@
       <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="right" id="Database" order="6" weight="0.12556732" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -578,10 +491,61 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/WordBreak/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#1478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/ClimbingStairs/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/Fibonacci/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/MaximumSubarry/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#1149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/RectCover/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/Triangle/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#1293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/WordBreak/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -767,16 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgrammer/Triangle/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -789,22 +743,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/ClimbingStairs/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/Fibonacci/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/MaximumSubarry/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#1149#0" expanded="true" />
           </folding>
@@ -814,14 +767,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/RectCover/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/Triangle/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding>
             <element signature="e#0#1293#0" expanded="true" />
           </folding>
@@ -830,10 +783,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/WordBreak/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="60">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="51" />
           <folding>
             <element signature="e#0#1478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths2/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths2/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
