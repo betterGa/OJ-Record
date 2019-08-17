@@ -61,7 +61,7 @@ System.out.println(out.get(1).get(0));
 
 @Test
     public void test6()
-{int[][]w=new int[][]{{0,0}};
+{int[][]w=new int[][]{{0}};
 System.out.println(w.length);//m
 System.out.println(w[0].length);//n
 

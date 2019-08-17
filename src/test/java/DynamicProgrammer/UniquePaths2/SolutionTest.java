@@ -10,8 +10,8 @@ Solution solution=new Solution();
     @Test
     public void uniquePathsWithObstacles() {
 
-        int[][]test=new int[][]{{0,0},{1,1},{0,0}};
+        int[][]test=new int[][]{{0,0}};
        int result=solution.uniquePathsWithObstacles(test);
-        Assert.assertEquals(0,result);
+        Assert.assertEquals(1,result);
     }
 }
