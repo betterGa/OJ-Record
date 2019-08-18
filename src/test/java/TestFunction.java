@@ -67,4 +67,7 @@ System.out.println(w[0].length);//n
 
 }
 
+@Test
+    public void test7()
+{System.out.println("".length());}
 }
