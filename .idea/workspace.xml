@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0134f6ba-9adc-49cc-bfad-98fd4b5d9b87" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgrammer/DistinctSubsequences/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgrammer/EditDistance/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgrammer/PalindromePartitioning2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgrammer/DistinctSubsequences/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgrammer/EditDistance/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgrammer/PalindromePartitioning2/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/Pocker/PlayCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgrammer/Backpack/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgrammer/Backpack/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicProgrammer/Backpack/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicProgrammer/Backpack/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DynamicProgrammer/Backpack/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DynamicProgrammer/Backpack/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DynamicProgrammer/Backpack/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DynamicProgrammer/Backpack/SolutionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DynamicProgrammer/DistinctSubsequences/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DynamicProgrammer/DistinctSubsequences/Solution.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,20 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/DistinctSubsequences/Solution.java">
+      <file leaf-file-name="PlayCards.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/Pocker/PlayCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgrammer/DistinctSubsequences/SolutionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -111,6 +92,9 @@
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/EditDistance/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/DistinctSubsequences/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/DistinctSubsequences/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/Pocker/Dfs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/Pocker/DfsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/Pocker/PlayCards.java" />
       </list>
     </option>
   </component>
@@ -130,7 +114,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -144,7 +128,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +159,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammer" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
@@ -184,8 +167,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammer" type="462c0819:PsiDirectoryNode" />
-              <item name="DistinctSubsequences" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepthFirstSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepthFirstSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="Pocker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
@@ -205,6 +198,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,11 +215,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Search.DeepthFirstSearch.Pocker" />
       <recent name="DynamicProgrammer.DistinctSubsequences" />
       <recent name="DynamicProgrammer.EditDistance" />
       <recent name="DynamicProgrammer.PalindromePartitioning2" />
       <recent name="DynamicProgrammer.Backpack" />
-      <recent name="DynamicProgrammer.MinMumPathSum" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -243,23 +237,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.numDistinct">
+  <component name="RunManager" selected="Application.PlayCards">
+    <configuration name="Dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Search.DeepthFirstSearch.Pocker.Dfs" />
+      <module name="Ojrecord" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Search.DeepthFirstSearch.Pocker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PlayCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayCards" />
+      <module name="Ojrecord" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SolutionTest.minCut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DfsTest.putIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicProgrammer.PalindromePartitioning2.*" />
+          <option name="PATTERN" value="Search.DeepthFirstSearch.Pocker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DynamicProgrammer.PalindromePartitioning2" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgrammer.PalindromePartitioning2.SolutionTest" />
-      <option name="METHOD_NAME" value="minCut" />
+      <option name="PACKAGE_NAME" value="Search.DeepthFirstSearch.Pocker" />
+      <option name="MAIN_CLASS_NAME" value="Search.DeepthFirstSearch.Pocker.DfsTest" />
+      <option name="METHOD_NAME" value="putIn" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -293,29 +303,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.minTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ojrecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProgrammer.EditDistance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DynamicProgrammer.EditDistance" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgrammer.EditDistance.SolutionTest" />
-      <option name="METHOD_NAME" value="minTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="SolutionTest.numDistinct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
       <extension name="coverage">
@@ -329,23 +316,6 @@
       <option name="PACKAGE_NAME" value="DynamicProgrammer.DistinctSubsequences" />
       <option name="MAIN_CLASS_NAME" value="DynamicProgrammer.DistinctSubsequences.SolutionTest" />
       <option name="METHOD_NAME" value="numDistinct" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestFunction.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ojrecord" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestFunction" />
-      <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -395,19 +365,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest.minCut" />
       <item itemvalue="JUnit.SolutionTest.minDistance" />
-      <item itemvalue="JUnit.TestFunction.test7" />
-      <item itemvalue="JUnit.SolutionTest.minTest" />
       <item itemvalue="JUnit.SolutionTest.numDistinct" />
+      <item itemvalue="JUnit.DfsTest.putIn" />
+      <item itemvalue="Application.Dfs" />
+      <item itemvalue="Application.PlayCards" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlayCards" />
+        <item itemvalue="Application.Dfs" />
+        <item itemvalue="JUnit.DfsTest.putIn" />
         <item itemvalue="JUnit.SolutionTest.numDistinct" />
         <item itemvalue="JUnit.SolutionTest.minDistance" />
-        <item itemvalue="JUnit.TestFunction.test7" />
-        <item itemvalue="JUnit.SolutionTest.minTest" />
-        <item itemvalue="JUnit.SolutionTest.minCut" />
       </list>
     </recent_temporary>
   </component>
@@ -430,68 +400,70 @@
       <workItem from="1565918575538" duration="18377000" />
       <workItem from="1566011425045" duration="13777000" />
       <workItem from="1566090568459" duration="15518000" />
+      <workItem from="1566264231649" duration="17583000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_minDistance - 2019.08.18 at 18h 07m 24s.xml">
-      <configuration name="SolutionTest.minDistance" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 18h 09m 38s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFunction_test7 - 2019.08.18 at 18h 08m 38s.xml">
-      <configuration name="TestFunction.test7" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 18h 10m 32s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_minDistance - 2019.08.18 at 18h 10m 23s.xml">
-      <configuration name="SolutionTest.minDistance" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 19h 12m 51s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_numDistinct - 2019.08.18 at 21h 21m 17s.xml">
-      <configuration name="SolutionTest.numDistinct" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 19h 12m 54s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_numDistinct - 2019.08.18 at 21h 22m 22s.xml">
-      <configuration name="SolutionTest.numDistinct" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 19h 16m 23s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_numDistinct - 2019.08.18 at 21h 22m 58s.xml">
-      <configuration name="SolutionTest.numDistinct" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 19h 43m 31s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_numDistinct - 2019.08.18 at 21h 23m 44s.xml">
-      <configuration name="SolutionTest.numDistinct" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 19h 44m 40s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_numDistinct - 2019.08.18 at 21h 24m 42s.xml">
-      <configuration name="SolutionTest.numDistinct" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 20h 06m 45s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_numDistinct - 2019.08.18 at 21h 25m 10s.xml">
-      <configuration name="SolutionTest.numDistinct" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 20h 07m 30s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_numDistinct - 2019.08.18 at 21h 25m 47s.xml">
-      <configuration name="SolutionTest.numDistinct" configurationId="JUnit" />
+    <history-entry file="DfsTest_putIn - 2019.08.20 at 21h 51m 51s.xml">
+      <configuration name="DfsTest.putIn" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100919000" />
+    <option name="totallyTimeSpent" value="118502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49546143" weight="0.32879046" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49092284" weight="0.32879046" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.35930407" side_tool="true" visible="true" weight="0.25553662" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.36384267" side_tool="true" visible="true" weight="0.36626917" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6406959" weight="0.25553662" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22163388" />
-      <window_info anchor="right" id="Database" order="3" weight="0.12556732" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63615733" visible="true" weight="0.36626917" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
+      <window_info anchor="right" id="Database" order="6" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,36 +472,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="6" weight="0.12556732" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742814" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.64220876" visible="true" weight="0.20954004" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35779122" side_tool="true" weight="0.3253833" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49621785" weight="0.32879046" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -543,20 +485,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/Fibonacci/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/MaximumSubarry/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DynamicProgrammer/RectCover/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -723,10 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="1327" column="25" selection-start-line="1327" selection-start-column="22" selection-end-line="1327" selection-end-column="25" />
-          <folding>
-            <element signature="e#49043#49044#0" expanded="true" />
-            <element signature="e#49082#49083#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="417" selection-start-line="417" selection-end-line="417" />
-          <folding>
-            <element signature="e#15459#15460#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,7 +809,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgrammer/DistinctSubsequences/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -896,6 +817,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/Pocker/DfsTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/Pocker/PlayCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
