@@ -13,27 +13,23 @@ public class PlayCards {
                  Scanner scan = new Scanner(System.in);
                  n = scan.nextInt();
                  dfs(1);
-                 return;
              }
+
              public static void dfs(int step){
               //递归完成的结束条件:如果站在第n+1个盒子前，则放置完成
-                 if(step==n+1){
-                         //输出放置的顺序
+                 if(step==n+1){//输出放置的顺序
                          for(int i=1;i<=n;i++)
                          {System.out.print(a[i]+" "); }
                        System.out.println();
                          //必须要有return，出递归
-                         return;
-                     }
+                         return; }
                  //面对第step个盒子，从牌1遍历下去，如果发现还在手中则放入盒子，标记，接着递归，再次标记返回上一层递归
                  for(int i=1;i<=n;i++){
-                         if(book[i]==0){
-                                 a[step] = i;
+                         if(book[i]==0){//若book[i]==0说明手里有这张牌，可以放在箱子里
+                                 a[step] = i;//把i号牌放到step号箱子中
                                  book[i] = 1;
                                  dfs(step+1);
-                                 book[i] = 0;
-                             }
-                  }
+                        book[i] = 0; }}
                return;
              }
  }

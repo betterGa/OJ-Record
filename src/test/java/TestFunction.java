@@ -70,4 +70,13 @@ System.out.println(w[0].length);//n
 @Test
     public void test7()
 {System.out.println("".length());}
-}
+
+@Test
+    public void test8()
+{
+    while (true)
+    {System.out.println("ohh");
+        return;}
+        //return有两个作用：1. 返回方法指定类型的值。
+    //                      2.直接结束方法的调用
+}}
