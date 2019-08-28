@@ -47,7 +47,7 @@ public class PlayCards
 {
   private int[]book=new int[10];//用于标识该牌是否被放到盒子中，若被放下，值为1，没被放仍在手中，值为0
   private  int[]a=new int[10];//用于存放盒子对应的牌号码
-private int n=4;
+private int n=3;
     public void putInto(int box)//对应第box个盒子放扑克牌的规则
     {
         if(box==n+1)
@@ -69,8 +69,7 @@ private int n=4;
             putInto(box+1);
         //在访问下一个盒子后需要写的是回退以后的操作
         //回退以后首先需要把当前盒子里的牌收回
-            book[box]=0;}}
+            book[j]=0;}}
         //遍历完牌发现没牌可放再回退，用return
             return;
-        }
-}
+        }}
