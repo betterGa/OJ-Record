@@ -92,13 +92,41 @@ class Employee
                 '}';
     }
 
-    public List<Integer> subordinates;}
+
+
+
+    public List<Integer> subordinates;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getImportance() {
+        return importance;
+    }
+
+    public void setImportance(int importance) {
+        this.importance = importance;
+    }
+
+    public List<Integer> getSubordinates() {
+        return subordinates;
+    }
+
+    public void setSubordinates(List<Integer> subordinates) {
+        this.subordinates = subordinates;
+    }
+}
 @Test
     public void test9()
 {
     Employee employee1=new Employee();
-employee1.id=1;
-employee1.importance=5;
+employee1.setId(1);
+employee1.setImportance(5);
 List<Integer>s1=new ArrayList<>();
 s1.add(2);
 s1.add(3);
@@ -106,20 +134,22 @@ employee1.subordinates=s1;
 //System.out.println(employee1);
 
     Employee employee2=new Employee();
-    employee2.id=2;
-    employee2.importance=3;
+    employee2.setId(2);
+    employee2.setImportance(3);
     List<Integer>s2=new ArrayList<>();
     employee2.subordinates=s2;
+
+    Employee employee3=new Employee();
+    employee3.setId(3);
+    employee3.setImportance(3);
+    List<Integer>s3=new ArrayList<>();
+    employee3.setSubordinates(s3);
 
 List<Employee>employees=new ArrayList<>();
 employees.add(employee1);
 employees.add(employee2);
-//System.out.println(employees);
-
-
-int id=2;
-if(employees.)
-
+employees.add(employee3);
+System.out.println(employees);
 }
 }
 
