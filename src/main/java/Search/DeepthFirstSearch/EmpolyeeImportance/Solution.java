@@ -108,22 +108,6 @@ public class Solution {
     }
 
 
-/*
-class Solution {
-    public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
-if(sr>=0&&sc>=0)
-{
-        if(image[sr-1][sc]==image[sr][sc]) {image[sr-1][sc]=newColor;
-                                            floodFill(image,sr-1,sc,newColor);}
-        if(image[sr][sc+1]==image[sr][sc]) {image[sr][sc+1]=newColor;
-                                            floodFill(image,sr,sc+1,newColor);}
-         if(image[sr+1][sc]==image[sr][sc]) {image[sr+1][sc]=newColor;
-                                             floodFill(image,sr+1,sc,newColor);}
-        if(image[sr][sc-1]==image[sr][sc]) {image[sr][sc-1]=newColor;                                             floodFill(image,sr,sc-1,newColor);}
-    }
-        return image;
-}}
- */
 
 
 
