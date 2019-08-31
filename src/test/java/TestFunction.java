@@ -151,5 +151,17 @@ employees.add(employee2);
 employees.add(employee3);
 System.out.println(employees);
 }
+
+@Test
+    public void test10()
+{List<String> ten=new ArrayList<>();
+int sr=1;
+int sc=1;
+ten.add(sr+""+sc);
+System.out.println(ten);
+
+
+
+}
 }
 
