@@ -44,7 +44,7 @@ public class Solution {
 
         */
 
-
+/*
 import java.util.ArrayList;
 import java.util.List;
 
@@ -72,3 +72,45 @@ public class Solution {
         return image;
     }
 }
+*/
+
+import java.util.ArrayList;
+import java.util.List;
+
+//自己实现一下
+public class Solution
+{
+    List<String> ifjudged=new ArrayList<>();
+    public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
+ //遇到已判断过的，回退即可
+               if(ifjudged.contains(sr+""+sc))
+        {return image;}
+
+        //先标记为已判断坐标，避免重复判断
+       ifjudged.add(sr+""+sc);
+        //先把需要判断的当前坐标的值存起来
+        int save = image[sr][sc];
+//改变当前坐标颜色
+        image[sr][sc] = newColor;
+//上
+        if (sr>= 1&&image[sr - 1][sc] == save) {
+            floodFill(image, sr - 1, sc, newColor);
+        }
+
+//下
+        if ( sr< image.length - 1&&image[sr + 1][sc] == save) {
+            floodFill(image, sr + 1, sc, newColor);
+        }
+
+        //左
+        if ( sc >= 1&&image[sr][sc - 1] == save) {
+            floodFill(image, sr, sc - 1, newColor);
+        }
+
+        //右
+        if (sc<image[0].length-1&&image[sr][sc + 1] == save ) {
+            floodFill(image, sr, sc + 1, newColor);
+        }
+
+        return image;
+    }}

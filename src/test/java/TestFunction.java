@@ -157,7 +157,10 @@ System.out.println(employees);
 {List<String> ten=new ArrayList<>();
 int sr=1;
 int sc=1;
+int sr1=0;
+int sc1=1;
 ten.add(sr+""+sc);
+ten.add(sr1+""+sc1);
 System.out.println(ten);
 
 
