@@ -162,9 +162,16 @@ int sc1=1;
 ten.add(sr+""+sc);
 ten.add(sr1+""+sc1);
 System.out.println(ten);
-
-
+ten.remove(sr1+""+sc1);
+System.out.println(ten);
 
 }
+
+@Test
+    public void test11()
+{
+
+}
+
 }
 
