@@ -1,4 +1,4 @@
-package Search.DeepthFirstSearch.SurroundedRegions;
+/*package Search.DeepthFirstSearch.SurroundedRegions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,19 +36,21 @@ public class Solution {
 
 
     public void solve(char[][] board) {
+if(board.length==0||(board.length==1&&board[0].length==1)) return ;
         //左边界
 for(int i=0;i<board.length;i++)
-{ if(board[i][0]=='O') judgeLeft(board,i); }
+{ if(board[i][0]=='O'&&board[0].length>1) judgeLeft(board,i); }
 //右边界
         for(int i=0;i<board.length;i++)
-        { if(board[i][board[0].length-1] =='O') judgeRight(board,i); }
+        { if(board[i][board[0].length-1] =='O'&&board[0].length>1) judgeRight(board,i); }
 //上边界
         for(int i=0;i<board[0].length;i++)
-        {if(board[0][i]=='O') judgeUp(board,i);}
+        {if(board[0][i]=='O'&&board.length>1) judgeUp(board,i);}
 //下边界
         for(int i=0;i<board[0].length;i++)
-        {if(board[board.length-1][i]=='O') judgeDown(board,i);}
-for(int i=0;i<board.length;i++)
+        {if(board[board.length-1][i]=='O'&&board.length>1) judgeDown(board,i);}
+
+        for(int i=0;i<board.length;i++)
     for(int j=0;j<board[0].length;j++)
     {if(board[i][j]=='O'&&!save.contains(i+""+j))
     { board[i][j]='X'; }
@@ -57,3 +59,11 @@ for(int i=0;i<board.length;i++)
 
     }
 }
+*/
+
+//以上对题目的理解有问题。比如测试中的data3，就出现了问题，第三行的'O'是不被围绕的，却被改成了'X'
+//找被围绕的'O'不易，可以转换角度，找到不被围绕的'O'
+// 应是从边界开始搜索，首先，边界如果有'O',这些'O'是一定不被围绕的
+//自然，与边界相连的'O'也是不被围绕的
+// 如果边界遇到了'O',就从当前坐标向上下左右四个方向搜索，如果也是'O',那么当前坐标也是不可能被围绕的
+//再向上下左右进行搜索
