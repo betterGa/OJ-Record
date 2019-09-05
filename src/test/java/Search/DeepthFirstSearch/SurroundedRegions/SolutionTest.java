@@ -10,7 +10,7 @@ public class SolutionTest {
     char[][] data=new char[][]{{'X','X','X','X'},{'X','O','O','X'},{'X','X','O','X'},{'X','O','X','X'}};
     char[][] data1=new char[][]{{'O'}};
 char[][]data3=new char[][]{{'O','X','X','O','X'},{'X','O','O','X','O'},{'X','O','X','O','X'},{'O','X','O','O','O'},{'X','X','O','X','O'}};
-
+char[][]data4=new char[][]{};
     char[][]data2=new char[][]{};
     @Test
     public void solve() {

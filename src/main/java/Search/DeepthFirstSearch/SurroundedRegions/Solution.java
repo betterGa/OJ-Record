@@ -61,6 +61,9 @@ for(int i=0;i<board.length;i++)
 }
 */
 
+import java.util.ArrayList;
+import java.util.List;
+
 //以上对题目的理解有问题。比如测试中的data3，就出现了问题，第三行的'O'是不被围绕的，却被改成了'X'
 //找被围绕的'O'不易，可以转换角度，找到不被围绕的'O'
 // 应是从边界开始搜索，首先，边界如果有'O',这些'O'是一定不被围绕的
@@ -69,11 +72,13 @@ for(int i=0;i<board.length;i++)
 //再向上下左右进行搜索，直到遇到'X',回退
 //在上下左右的搜索过程中，对每个坐标进行操作时，也会涉及回退，最后可保证每个的上下左右都被操作
 public class Solution{
-
+List<String> ifjudged=new ArrayList();
     public void judge(int[][]tag,char[][] board,int i,int j)
-    {
+    {if(ifjudged.contains(i+""+j)==true) return;
         //如果当前坐标是'O',需要给tag数组标记为1,说明不能被包围
-        if(board[i][j]=='O') {tag[i][j]=1;
+        if(board[i][j]=='O')
+        {ifjudged.add(i+""+j);
+        tag[i][j]=1;
 
         //上
             if(i>0)
@@ -86,14 +91,14 @@ public class Solution{
     {if(board[i][j-1]=='O')judge(tag,board,i,j-1); }
     //右
 if(j<board[0].length-1)
-{if(board[i][j+1]=='O')judge(tag,board,i,j+1); }
-    }
-    else return;}
+{if(board[i][j+1]=='O')judge(tag,board,i,j+1); }}
+    return;}
 
 
     public void solve(char[][] board) {
-        int[][]tag=new int[board.length][board[0].length];
+ifjudged.clear();
             if(board.length==0||(board.length==1&&board[0].length==1)) return ;
+        int[][]tag=new int[board.length][board[0].length];
             //左边界
             for(int i=0;i<board.length;i++)
             { if(board[i][0]=='O'&&board[0].length>1) judge(tag,board,i,0); }
