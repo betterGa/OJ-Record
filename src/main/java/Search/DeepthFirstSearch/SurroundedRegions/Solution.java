@@ -74,7 +74,8 @@ import java.util.List;
 public class Solution{
 List<String> ifjudged=new ArrayList();
     public void judge(int[][]tag,char[][] board,int i,int j)
-    {if(ifjudged.contains(i+""+j)==true) return;
+    {//遇到已判断就直接回退
+        if(ifjudged.contains(i+""+j)) return;
         //如果当前坐标是'O',需要给tag数组标记为1,说明不能被包围
         if(board[i][j]=='O')
         {ifjudged.add(i+""+j);

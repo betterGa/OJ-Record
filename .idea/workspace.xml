@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0134f6ba-9adc-49cc-bfad-98fd4b5d9b87" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/SurroundedRegions/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/SurroundedRegions/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/SurroundedRegions/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/SurroundedRegions/SolutionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +41,20 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/SurroundedRegions/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+            <state relative-caret-position="420">
+              <caret line="120" column="1" selection-start-line="73" selection-end-line="120" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/FloodFill/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/IslandPerimeter/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/IslandPerimeter/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/SurroundedRegions/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/SurroundedRegions/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/SurroundedRegions/Solution.java" />
       </list>
     </option>
   </component>
@@ -197,6 +207,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Search" type="462c0819:PsiDirectoryNode" />
               <item name="DeepthFirstSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepthFirstSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="EmpolyeeImportance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepthFirstSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="FloodFill" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
@@ -490,7 +520,7 @@
       <workItem from="1567418574470" duration="9194000" />
       <workItem from="1567507423651" duration="7792000" />
       <workItem from="1567599743923" duration="3873000" />
-      <workItem from="1567676180585" duration="3585000" />
+      <workItem from="1567676180585" duration="4120000" />
     </task>
     <servers />
   </component>
@@ -527,10 +557,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187718000" />
+    <option name="totallyTimeSpent" value="188253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -543,11 +573,11 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.63464445" visible="true" weight="0.41908008" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63464445" weight="0.41908008" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26172465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
       <window_info anchor="right" id="Database" order="6" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -911,13 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/FloodFill/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -960,6 +983,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/FloodFill/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/SurroundedRegions/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -969,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/SurroundedRegions/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        <state relative-caret-position="420">
+          <caret line="120" column="1" selection-start-line="73" selection-end-line="120" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
