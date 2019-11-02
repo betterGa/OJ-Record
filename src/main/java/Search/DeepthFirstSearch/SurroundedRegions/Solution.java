@@ -71,6 +71,10 @@ import java.util.List;
 // 如果边界遇到了'O',就从当前坐标向上下左右四个方向搜索，如果也是'O',那么当前坐标也是不可能被围绕的
 //再向上下左右进行搜索，直到遇到'X',回退
 //在上下左右的搜索过程中，对每个坐标进行操作时，也会涉及回退，最后可保证每个的上下左右都被操作
+
+
+
+/*
 public class Solution{
 List<String> ifjudged=new ArrayList();
     public void judge(int[][]tag,char[][] board,int i,int j)
@@ -119,3 +123,49 @@ for(int i=0;i<board.length;i++)
 
         }
 }
+*/
+
+public class Solution
+{
+    public void solve(char[][] board) {
+        //行
+        int line=board.length;
+        //列
+        int column=board[0].length;
+//从四个边界行列中遍历元素，遇到"O"进入深度优先搜索，将与它相连的"O"变成"#"符号
+        //上下边界
+        for(int i=0;i<column;i++)
+        { if(board[0][i]=='O') dfs(board,i,0);
+            if(board[line-1][i]=='O') dfs(board,line-1,i); }
+            //左右边界
+        for(int j=0;j<line;j++)
+        { if(board[j][0]=='O') dfs(board,j,0);
+        if(board[j][column-1]=='O') dfs(board,j,column-1); }
+
+        for(int m=0;m<line;m++)
+            for(int n=0;n<column;n++)
+            {
+                if(board[m][n]=='O') board[m][n]='X';
+            }
+        for(int m=0;m<line;m++)
+            for(int n=0;n<column;n++)
+            {
+                if(board[m][n]=='#') board[m][n]='O';
+            }
+    }
+
+
+public void dfs(char[][]broad,int line,int column)
+{//下标越界时需要回退
+    if(line<0||line>=broad.length||column<0||column>=broad[0].length||broad[line][column]!='O')
+        return;
+    broad[line][column]='#';
+    //递归调用，上下左右
+    dfs(broad,line-1,column);
+    dfs(broad,line+1,column);
+    dfs(broad,line,column-1);
+    dfs(broad,line,column+1);
+    return;
+    }
+}
+
