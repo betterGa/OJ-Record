@@ -45,13 +45,13 @@ public class TestFunction {
 
     @Test
     public void test5() {
-        ArrayList<Integer> in = new ArrayList<>();
+        ArrayList<Integer> in = new ArrayList();
         in.add(2);
-        ArrayList<Integer> in2 = new ArrayList<>();
+        ArrayList<Integer> in2 = new ArrayList();
         in2.add(3);
         in2.add(4);
-        ArrayList<Integer> in3 = new ArrayList<>();
-        ArrayList<ArrayList<Integer>> out = new ArrayList<>();
+        ArrayList<Integer> in3 = new ArrayList();
+        ArrayList<ArrayList<Integer>> out = new ArrayList();
         out.add(in);
         out.add(in2);
         System.out.println(out.get(1).get(0));
@@ -128,7 +128,7 @@ public class TestFunction {
         Employee employee1 = new Employee();
         employee1.setId(1);
         employee1.setImportance(5);
-        List<Integer> s1 = new ArrayList<>();
+        List<Integer> s1 = new ArrayList();
         s1.add(2);
         s1.add(3);
         employee1.subordinates = s1;
@@ -137,16 +137,16 @@ public class TestFunction {
         Employee employee2 = new Employee();
         employee2.setId(2);
         employee2.setImportance(3);
-        List<Integer> s2 = new ArrayList<>();
+        List<Integer> s2 = new ArrayList();
         employee2.subordinates = s2;
 
         Employee employee3 = new Employee();
         employee3.setId(3);
         employee3.setImportance(3);
-        List<Integer> s3 = new ArrayList<>();
+        List<Integer> s3 = new ArrayList();
         employee3.setSubordinates(s3);
 
-        List<Employee> employees = new ArrayList<>();
+        List<Employee> employees = new ArrayList();
         employees.add(employee1);
         employees.add(employee2);
         employees.add(employee3);
@@ -155,7 +155,7 @@ public class TestFunction {
 
     @Test
     public void test10() {
-        List<String> ten = new ArrayList<>();
+        List<String> ten = new ArrayList();
         int sr = 1;
         int sc = 1;
         int sr1 = 0;

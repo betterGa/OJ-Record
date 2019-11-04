@@ -14,7 +14,7 @@ public class SolutionTest {
 
       Solution solution = new Solution();
     public String s = "aaaaaaa";
-    public Set<String> dict = new HashSet<>();
+    public Set<String> dict = new HashSet();
 
     @Test
     public void wordBreak() {

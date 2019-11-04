@@ -80,7 +80,7 @@ import java.util.List;
 //自己实现一下
 public class Solution
 {
-    List<String> ifjudged=new ArrayList<>();
+    List<String> ifjudged=new ArrayList();
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
  //遇到已判断过的，回退即可
                if(ifjudged.contains(sr+""+sc))

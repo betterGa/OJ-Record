@@ -9,12 +9,12 @@ import static org.junit.Assert.*;
 
 public class SolutionTest {
 Solution solution=new Solution();
-    ArrayList<Integer> in0=new ArrayList<>();
+    ArrayList<Integer> in0=new ArrayList();
 
-        ArrayList<Integer> in1=new ArrayList<>();
-    ArrayList<Integer> in2=new ArrayList<>();
-        ArrayList<Integer> in3=new ArrayList<>();
-        ArrayList<ArrayList<Integer>> out=new ArrayList<>();
+        ArrayList<Integer> in1=new ArrayList();
+    ArrayList<Integer> in2=new ArrayList();
+        ArrayList<Integer> in3=new ArrayList();
+        ArrayList<ArrayList<Integer>> out=new ArrayList();
 
         @Test
     public void minimumTotal() {

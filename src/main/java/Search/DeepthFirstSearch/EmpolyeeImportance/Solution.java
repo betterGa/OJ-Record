@@ -61,7 +61,7 @@ public class Solution {
     {  Employee employee1=new Employee();
         employee1.setId(1);
         employee1.setImportance(5);
-        List<Integer>s1=new ArrayList<>();
+        List<Integer>s1=new ArrayList();
         s1.add(2);
         s1.add(3);
         employee1.subordinates=s1;
@@ -70,16 +70,16 @@ public class Solution {
         Employee employee2=new Employee();
         employee2.setId(2);
         employee2.setImportance(3);
-        List<Integer>s2=new ArrayList<>();
+        List<Integer>s2=new ArrayList();
         employee2.subordinates=s2;
 
         Employee employee3=new Employee();
         employee3.setId(3);
         employee3.setImportance(3);
-        List<Integer>s3=new ArrayList<>();
+        List<Integer>s3=new ArrayList();
         employee3.setSubordinates(s3);
 
-        List<Employee>employees=new ArrayList<>();
+        List<Employee>employees=new ArrayList();
         employees.add(employee1);
         employees.add(employee2);
         employees.add(employee3);
