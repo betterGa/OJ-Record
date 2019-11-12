@@ -1,6 +1,8 @@
 package Search.BreadthFirstSearch;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Queue;
 
 //广度优先搜索，迷宫
@@ -10,6 +12,7 @@ public class Maze {
     //封装横纵坐标
     class pointCoo
     {
+
         int x;
         int y;
 
