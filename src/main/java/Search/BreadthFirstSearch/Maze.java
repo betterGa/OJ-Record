@@ -1,4 +1,4 @@
-package Search.BreadthFirstSearch;
+package Search.BreadthFirstSearch;/*package Search.BreadthFirstSearch;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -94,3 +94,77 @@ return flag;
     }
 
 }
+*/
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+//再写一遍迷宫
+//给定入口，出口，遇"0"可以通过，遇"1"是障碍不可以通过
+public class Maze
+{
+    //封装二维坐标
+    class coor2D
+    {int x;
+    int y;
+    public coor2D(int x,int y)
+    {this.x=x;
+    this.y=y;}
+    }
+
+    //广度优先搜索——二叉树的层次遍历——当前点带出新的点——队列
+    //传入迷宫阵，入口坐标，出口坐标，返回是否能出
+    public boolean bfs(int[][] maze,int startX,int startY,int destX,int destY)
+    {
+boolean flag=false;
+        Queue<coor2D> queue=new ArrayDeque<>();
+
+        //行
+        int row=maze.length;
+        //列
+        int column=maze[0].length;
+
+        //新建二维数组判断是否走过坐标,初始为默认值0，表示没有走过，"1"表示已走过
+int[][]ifThrough=new int[row][column];
+
+//先让入口坐标入队
+((ArrayDeque<coor2D>) queue).push(new coor2D(startX,startY));
+
+//为上下左右情况创建数组
+        int[][]direction=new int[][]{{-1,0},{1,0},{0,-1},{0,1}};
+        //当队不为空时进行广度优先搜索
+        while (!queue.isEmpty())
+        {//获取队头并出队
+            int curX=queue.poll().x;
+            int curY=queue.poll().y;
+            //已走到出口，可以之间return true。
+            if(curX==destX&&curY==destY)
+            {return true; }
+            //标记为已走过
+            ifThrough[curX][curY]=1;
+
+            //遍历上下左右
+            for(int i=0;i<4;i++)
+            {
+                int afterX=curX+direction[i][0];
+                int afterY=curY+direction[i][1];
+//如果当前坐标非法，continue
+                if(afterX<0||afterX>=row||afterY<0||afterY>=column)
+                {continue;}
+
+                //如果当前坐标处可以通过且没走过
+                if(maze[afterX][afterY]==0&&ifThrough[afterX][afterY]==0)
+                {
+                    //将它入队
+                    ((ArrayDeque<coor2D>) queue).push(new coor2D(afterX,afterY));
+                }
+                //当前坐标有障碍，不能通过
+                if(maze[afterX][afterY]==1) continue;
+
+            }
+        }
+        return false;
+    }
+}
+
+
