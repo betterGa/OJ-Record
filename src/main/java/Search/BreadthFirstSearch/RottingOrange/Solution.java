@@ -1,8 +1,6 @@
 package Search.BreadthFirstSearch.RottingOrange;
 
-import java.util.LinkedList;
-import java.util.Objects;
-import java.util.Queue;
+import java.util.*;
 
 public class Solution {
     class coor2d
