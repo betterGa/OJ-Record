@@ -1,4 +1,4 @@
-package Search.BreadthFirstSearch.ladderLength;
+package Search.BreadthFirstSearch.ladderLength;/*package Search.BreadthFirstSearch.ladderLength;
 import javafx.util.Pair;
 import java.util.*;
 
@@ -65,4 +65,77 @@ public class Solution {
         return 0;
     }
 }
+
+*/
+
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+
+
+
+//3.参考评论
+public class Solution {
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Queue<String>q = new LinkedList<String>();
+        q.add(beginWord);//先将初始节点加进去
+        int steps=0;
+        while(!q.isEmpty()){
+            int sizeQ=q.size();
+            for(int i=0;i<sizeQ;i++){//遍历当前层的节点
+                String temp=q.poll();
+                if(temp.equals(endWord)){
+                    return steps+1;
+                }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                Iterator<String> it =wordList.iterator();
+                while(it.hasNext()){
+                    String current = it.next();
+                    //队列中的头和list表中的当前遍历值可以转换
+                    if(canTransform(temp,current)){
+                        q.offer(current);
+                        //使用集合对象 all 的 remove() 方法后，迭代器的结构被破坏了，遍历停止了
+                        //wordList.remove(current);
+                        it.remove();
+                    }
+                }
+            }
+            steps++;
+        }
+        return 0;
+    }
+    //比较两个单词是否可以转换，也就是只有一位不同
+    boolean canTransform(String word1, String word2){
+        int cnt=0;//记录word1 word2不相等字符个数
+        for(int i=0;i<word1.length();i++){
+            if(word1.charAt(i)!=word2.charAt(i)){
+                cnt++;
+            }
+        }
+        return cnt==1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+public class Solution {
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+
+    //队列q就是用来存
+        Queue q=new LinkedList();
+        //beginWord可能不在wordList中，需要先加进去
+    }
+    */
+
 
