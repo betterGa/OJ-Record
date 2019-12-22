@@ -1,15 +1,15 @@
-package Search.BreadthFirstSearch.ladderLength;/*package Search.BreadthFirstSearch.ladderLength;
-import javafx.util.Pair;
+package Search.BreadthFirstSearch.ladderLength;
+/**
+package Search.BreadthFirstSearch.ladderLength;
 import java.util.*;
 
-
-//1.LeetCode官方题解，用到了javafx.util.Pair
-//可是我看不懂。
+1.LeetCode官方题解，用到了javafx.util.Pair
+可是我看不懂。
 
 public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
 
-// Since all words are of same length.
+ Since all words are of same length.
         int L = beginWord.length();
 
         // Dictionary to hold combination of words that can be formed,
@@ -19,7 +19,7 @@ public class Solution {
         wordList.forEach(
                 word -> {
                     for (int i = 0; i < L; i++) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          // Key is the generic word
+                                                                                                                                                                                                                              // Key is the generic word
                         // Value is a list of words which have the same intermediate generic word.
                         String newWord = word.substring(0, i) + '*' + word.substring(i + 1, L);
                         ArrayList<String> transformations =
@@ -74,9 +74,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-
-
-
+/**
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 //3.参考评论
 public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
@@ -89,7 +91,7 @@ public class Solution {
                 String temp=q.poll();
                 if(temp.equals(endWord)){
                     return steps+1;
-                }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                }
                 Iterator<String> it =wordList.iterator();
                 while(it.hasNext()){
                     String current = it.next();
@@ -117,25 +119,66 @@ public class Solution {
         return cnt==1;
     }
 }
+*/
 
+ //3.试着自己写一下，用队列实现，广度优先搜索
+//关键是计算层数
 
-
-
-
-
-
-
-
-
-
-/*
 public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        //易错：注意：如果beginWors和endWord都不在wordList中，也是有可能通过wordList转换得来的。
+        // 应当是：如果wordList为0.返回0
+        if(wordList.size()==0) return 0;
+        //初始化层数
+        int layer = 0;
+        //首先将beginWord入队
+        Queue<String> queue = new LinkedList();
+        ((LinkedList) queue).addLast(beginWord);
+        //当queue队不为空时，通过队的size控制在本层。
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                //将本层的元素依次出队
+                String head = ((LinkedList<String>) queue).pollFirst();
+                //如果出队的元素已经是endWord，说明这时的这个head已经是最后一层。返回layer+1即可。
 
-    //队列q就是用来存
-        Queue q=new LinkedList();
-        //beginWord可能不在wordList中，需要先加进去
+                //注意这里用的是equals，而不是==,equals比较的是内容，==比较引用地址。
+                if(head.equals(endWord)) return layer+1;
+                //遍历wordList，遇到可以从head转换而来的元素，就把该元素入队
+                Iterator<String> iterator = wordList.iterator();
+                while (iterator.hasNext()) {
+                    String current = iterator.next();
+                    if (ifTransfprm(head,current)) {
+                        ((LinkedList<String>) queue).addLast(current);
+                        //并将该元素从wordList中删除
+                        iterator.remove();
+                    }
+                }
+
+                //当该层的元素都出队去与wordList中的元素依次比较完了，这一层也就完了，给layer+1即可。
+            }
+            layer++;}
+
+
+        //如果在遍历wordList的过程中始终没有找到可以转换的单词，说明无法从beginWord转换到endWord,
+        //返回0即可。
+        return 0;}
+
+    //用来判断能否转换
+    public boolean ifTransfprm(String s1,String s2)
+    {
+        //初始化不相等位数
+        int codeL=0;
+        int length=s1.length();
+        for(int j=0;j<length;j++)
+        {
+            if(s1.charAt(j)!=s2.charAt(j))
+            {codeL++;}
+        }
+        return codeL==1;
+
     }
-    */
+}
+
 
 
