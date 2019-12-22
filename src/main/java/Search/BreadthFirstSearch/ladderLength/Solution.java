@@ -123,6 +123,26 @@ public class Solution {
 
  //3.试着自己写一下，用队列实现，广度优先搜索
 //关键是计算层数
+  /*Java实现，已通过，广度优先搜索算法（无优化），执行用时 :341 ms，内存消耗 :37.2 MB。
+          通过队列实现，BFS关注“层数”，先将beginWord入队，每次从队头出队时，需要将出队单词可以转换至的单词依次入队，通过计算当前队列的size,来控制停留在当前层。
+          比如：
+          从bit 可以到hit bat git.
+          而从hit可以到hat,
+          bat也可以到hat，
+          git可以到gat.
+          从hit又可以到hat......
+          目前是有3层了，（画个图来看会更清晰些）直至转换为endWord......
+          只有每次控制在当前层，将当前层的所有元素依次出队，再将可转换至的单词入队，并且需要在wordList中将转换至的单词remove，避免计入重复结果。 循环往复，直至遇到出队的这个元素与endWord值相同，这时说明当前出队元素已经到达最终状态，是最后一层了，返回层数+1即可，这样可以保证是“最短转换序列长度”。  或者是当前层所有单词遍历完毕，需要给层数+1。
+          寻找转换后单词的方法是将两个单词做比较。字母不同位数为1的情况就是可以转换。
+
+          需要注意的两个问题：
+          （1）用LinkedList实现队列，可以入队用addLast,出队用pollFirst.
+          或者入队用addFirst，出队用pollLast,
+          或者入队用offer,出队用poll
+          如果用add ，相当于addLast,,如果用poll，相当于pollFirst.
+          （2）比较两个单词是否相同应当用"equals"，而不是"=="(这就是为什么在IDEA中可以通过，而在力扣通不过的原因，我自己写的测试用例的String类型引用没有new，直接指向的两个一样的字符串，所以用“==”返回值为true,而力扣的测试用例每次的String类型的引用应当是指向了不同的new出来的实例化对象，因而应当用“equals”去判断，而不是“==”)。
+*/
+
 
 public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
