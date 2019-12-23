@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0134f6ba-9adc-49cc-bfad-98fd4b5d9b87" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,87 +34,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="136" column="38" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#91089#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#19296#19297#0" expanded="true" />
-                <element signature="e#19379#19380#0" expanded="true" />
-                <element signature="e#24298#24299#0" expanded="true" />
-                <element signature="e#24363#24364#0" expanded="true" />
-                <element signature="e#66531#66532#0" expanded="true" />
-                <element signature="e#66588#66589#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="860" selection-start-line="860" selection-end-line="860" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/minNumberInRotateArray153/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/ladderLength/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
+            <state relative-caret-position="26">
+              <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/minNumberInRotateArray154/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/minMutation/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="92">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Iterator.java">
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6960">
-              <caret line="374" column="25" selection-start-line="374" selection-start-column="25" selection-end-line="374" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hashtable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Hashtable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24880">
-              <caret line="1244" column="7" selection-start-line="1244" selection-start-column="7" selection-end-line="1244" selection-end-column="7" />
+            <state relative-caret-position="1326">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/TestSubString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/WordBreak/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/Triangle/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths2/SolutionTest.java" />
@@ -215,6 +165,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/minNumberInRotateArray153/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/minNumberInRotateArray154/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/ladderLength/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/minMutation/Solution.java" />
       </list>
     </option>
   </component>
@@ -245,7 +198,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="390" />
     <option name="y" value="73" />
     <option name="width" value="899" />
@@ -259,8 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,7 +243,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
@@ -300,8 +251,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="minNumberInRotateArray154" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="BreadthFirstSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="BreadthFirstSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="ladderLength" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="BreadthFirstSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="minMutation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
@@ -311,7 +282,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,21 +292,22 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Sword-means-offer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.295858" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Search.BreadthFirstSearch.ladderLength" />
       <recent name="Search.BreadthFirstSearch.RottingOrange" />
       <recent name="Search.BreadthFirstSearch.NaryTreeLevelOrderTraversal" />
       <recent name="Search.BreadthFirstSearch.EmpolyeeImportance" />
       <recent name="Search.DeepthFirstSearch.SurroundedRegions" />
-      <recent name="Search.DeepthFirstSearch.IslandPerimeter" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Search" />
@@ -354,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SolutionTest.compare2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Ojrecord" />
@@ -363,19 +337,19 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SolutionTest.getImportance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.compare1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Search.BreadthFirstSearch.EmpolyeeImportance.*" />
+          <option name="PATTERN" value="Search.BreadthFirstSearch.ladderLength.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.EmpolyeeImportance" />
-      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.EmpolyeeImportance.SolutionTest" />
-      <option name="METHOD_NAME" value="getImportance" />
+      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.ladderLength" />
+      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.ladderLength.SolutionTest" />
+      <option name="METHOD_NAME" value="compare1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -386,19 +360,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.levelOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.compare2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Search.BreadthFirstSearch.NaryTreeLevelOrderTraversal.*" />
+          <option name="PATTERN" value="Search.BreadthFirstSearch.ladderLength.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.NaryTreeLevelOrderTraversal" />
-      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.NaryTreeLevelOrderTraversal.SolutionTest" />
-      <option name="METHOD_NAME" value="levelOrder" />
+      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.ladderLength" />
+      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.ladderLength.SolutionTest" />
+      <option name="METHOD_NAME" value="compare2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -409,19 +383,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.orangesRotting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.ladderLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Search.BreadthFirstSearch.RottingOrange.*" />
+          <option name="PATTERN" value="Search.BreadthFirstSearch.ladderLength.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.RottingOrange" />
-      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.RottingOrange.SolutionTest" />
-      <option name="METHOD_NAME" value="orangesRotting" />
+      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.ladderLength" />
+      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.ladderLength.SolutionTest" />
+      <option name="METHOD_NAME" value="ladderLength" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -432,19 +406,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.ladderLength2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Search.BreadthFirstSearch.RottingOrange.*" />
+          <option name="PATTERN" value="Search.BreadthFirstSearch.ladderLength.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.RottingOrange" />
-      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.RottingOrange.SolutionTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.ladderLength" />
+      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.ladderLength.SolutionTest" />
+      <option name="METHOD_NAME" value="ladderLength2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -495,23 +469,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.SolutionTest.getImportance" />
-      <item itemvalue="JUnit.SolutionTest.levelOrder" />
-      <item itemvalue="JUnit.SolutionTest.orangesRotting" />
-      <item itemvalue="JUnit.SolutionTest.test1" />
+      <item itemvalue="JUnit.SolutionTest.ladderLength" />
+      <item itemvalue="JUnit.SolutionTest.ladderLength2" />
+      <item itemvalue="JUnit.SolutionTest.compare1" />
+      <item itemvalue="JUnit.SolutionTest.compare2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.compare2" />
+        <item itemvalue="JUnit.SolutionTest.compare1" />
+        <item itemvalue="JUnit.SolutionTest.ladderLength2" />
+        <item itemvalue="JUnit.SolutionTest.ladderLength" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SolutionTest.test1" />
-        <item itemvalue="JUnit.SolutionTest.orangesRotting" />
-        <item itemvalue="JUnit.SolutionTest.levelOrder" />
-        <item itemvalue="JUnit.SolutionTest.getImportance" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Lenovo\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -565,50 +539,54 @@
       <workItem from="1574156246797" duration="3952000" />
       <workItem from="1574216879527" duration="76000" />
       <workItem from="1574903876611" duration="1339000" />
+      <workItem from="1576912578953" duration="13192000" />
+      <workItem from="1576971386605" duration="14862000" />
+      <workItem from="1577065117062" duration="2763000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.15 at 22h 36m 09s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_ladderLength - 2019.12.22 at 10h 35m 43s.xml">
+      <configuration name="SolutionTest.ladderLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.16 at 07h 55m 50s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 10h 35m 43s.xml">
+      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.16 at 07h 56m 49s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 41m 49s.xml">
+      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.16 at 08h 00m 52s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 46m 27s.xml">
+      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.16 at 08h 06m 00s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 47m 02s.xml">
+      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.16 at 08h 12m 32s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_ladderLength - 2019.12.22 at 11h 47m 06s.xml">
+      <configuration name="SolutionTest.ladderLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.16 at 08h 12m 49s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 49m 09s.xml">
+      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.16 at 08h 17m 57s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 51m 45s.xml">
+      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_orangesRotting - 2019.11.16 at 08h 47m 56s.xml">
-      <configuration name="SolutionTest.orangesRotting" configurationId="JUnit" />
+    <history-entry file="SolutionTest_compare1 - 2019.12.22 at 12h 17m 44s.xml">
+      <configuration name="SolutionTest.compare1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_test1 - 2019.11.16 at 17h 36m 55s.xml">
-      <configuration name="SolutionTest.test1" configurationId="JUnit" />
+    <history-entry file="SolutionTest_compare2 - 2019.12.22 at 12h 19m 51s.xml">
+      <configuration name="SolutionTest.compare2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320151000" />
+    <option name="totallyTimeSpent" value="350968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48865354" weight="0.32879046" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -616,21 +594,20 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.17887564" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.11584327" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
       <window_info anchor="right" id="Database" order="8" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.3492334" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.0988075" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48865354" weight="0.32879046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -638,30 +615,30 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
+      <window_info anchor="right" id="Database" order="8" weight="0.12556732" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.17887564" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.3270869" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="8" weight="0.12556732" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.3492334" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.3492334" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3721634" side_tool="true" weight="0.2504259" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3721634" side_tool="true" weight="0.2504259" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48865354" weight="0.32879046" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -718,54 +695,17 @@
           <properties />
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="106" />
+      <option name="time" value="112" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="804" selection-start-line="804" selection-end-line="804" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="1070" selection-start-line="1070" selection-end-line="1070" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Wula.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/SurroundedRegions/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/Parenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/SwapNodesInPairs24/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/MaxAreaOfIslands/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/IslandPerimeter/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -858,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -949,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="111" column="15" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1012,30 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24880">
-          <caret line="1244" column="7" selection-start-line="1244" selection-start-column="7" selection-end-line="1244" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6960">
@@ -1043,20 +945,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/minNumberInRotateArray154/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="136" column="38" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#91089#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#19296#19297#0" expanded="true" />
-            <element signature="e#19379#19380#0" expanded="true" />
-            <element signature="e#24298#24299#0" expanded="true" />
-            <element signature="e#24363#24364#0" expanded="true" />
-            <element signature="e#66531#66532#0" expanded="true" />
-            <element signature="e#66588#66589#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/ladderLength.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/minNumberInRotateArray153/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="1244" column="7" selection-start-line="1244" selection-start-column="7" selection-end-line="1244" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1067,17 +981,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/minNumberInRotateArray153/Solution.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
+        <state relative-caret-position="20">
+          <caret line="136" column="38" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/minNumberInRotateArray154/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="98">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="292" selection-start-line="292" selection-end-line="292" />
+          <folding>
+            <element signature="e#8036#8037#0" expanded="true" />
+            <element signature="e#23214#23215#0" expanded="true" />
+            <element signature="e#23241#23242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="977" column="24" lean-forward="true" selection-start-line="977" selection-start-column="24" selection-end-line="977" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/ladderLength/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/minMutation/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
