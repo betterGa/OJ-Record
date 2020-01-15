@@ -206,5 +206,14 @@ u.pass=1;
     System.out.println(a=='a');
 }
 
+@Test
+    public void testSb()
+{
+    StringBuilder sb=new StringBuilder("abcdef");
+   // sb.insert(0,"o");
+    sb.insert(6,"h");
+System.out.println(sb);
+
+}
 }
 
