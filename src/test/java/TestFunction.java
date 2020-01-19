@@ -215,5 +215,31 @@ u.pass=1;
 System.out.println(sb);
 
 }
+
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        int num=in.nextInt();
+    // int[]list=new int[num];
+     ArrayList list=new ArrayList(num);
+        int i=0;
+      for (int j=0;j<num;j++)
+        {
+           list.add(in.nextInt()) ;
+        }
+        for(int j=0;j<list.size();j++)
+        System.out.println(list);
+    }
+    @Test
+    public void test14()
+    {int i=0+'9';
+    int j=0+'0';
+        System.out.println(i);
+System.out.println(j);
+System.out.println(Character.valueOf('0'));
+    }
+@Test
+    public void test15()
+{System.out.println("0123456".substring(2,7));}
+
 }
 
