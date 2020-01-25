@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0134f6ba-9adc-49cc-bfad-98fd4b5d9b87" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/NowCoder/BuyApple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NowCoder/DeleteCommonChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NowCoder/MagicPocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NowCoder/MagicPocketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestFunction.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +34,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/ladderLength/Solution.java">
+      <file leaf-file-name="TheLongestStrOfNum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/TheLongestStrOfNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyApple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/BuyApple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteCommonChar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/DeleteCommonChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="26">
-              <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+              <caret line="2131" column="40" selection-start-line="2131" selection-start-column="29" selection-end-line="2131" selection-end-column="40" />
+              <folding>
+                <element signature="e#82971#82972#0" expanded="true" />
+                <element signature="e#83020#83021#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagicPocket.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/MagicPocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagicPocketTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NowCoder/MagicPocketTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,23 +101,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/minMutation/Solution.java">
+      <file leaf-file-name="Set.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Set.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="5226">
+              <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java">
+      <file leaf-file-name="TheLongestStrOfNumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NowCoder/TheLongestStrOfNumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            <state relative-caret-position="182">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5824">
+              <caret line="241" column="43" selection-start-line="241" selection-start-column="43" selection-end-line="241" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -72,8 +137,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -117,19 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/UniquePaths2/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/UniquePaths2/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/MinMumPathSum/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/MinMumPathSum/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/Backpack/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/Backpack/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/PalindromePartitioning2/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/PalindromePartitioning2/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/EditDistance/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/EditDistance/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/DistinctSubsequences/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/DistinctSubsequences/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/Pocker/Dfs.java" />
         <option value="$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/Pocker/DfsTest.java" />
@@ -151,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/FloodFill/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/EmpolyeeImportance/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/WordBreak/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestFunction.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicProgrammer/Triangle/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SubClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search/Main.java" />
@@ -168,6 +219,20 @@
         <option value="$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/ladderLength/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/minMutation/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/StatisticalPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/findKth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/Finder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NowCoder/SodaBottlesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/SodaBottles.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NowCoder/TheLongestStrOfNumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/AntiOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/TheLongestStrOfNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/Scanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/BuyApple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/DeleteCommonChar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NowCoder/MagicPocketTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/MagicPocket.java" />
       </list>
     </option>
   </component>
@@ -198,10 +263,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="390" />
-    <option name="y" value="73" />
-    <option name="width" value="899" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="832" />
     <option name="height" value="623" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -212,6 +277,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,36 +311,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="NowCoder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-              <item name="BreadthFirstSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-              <item name="BreadthFirstSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="ladderLength" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ojrecord" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-              <item name="BreadthFirstSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="minMutation" type="462c0819:PsiDirectoryNode" />
+              <item name="NowCoder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ojrecord" type="b2602c69:ProjectViewProjectNode" />
@@ -282,9 +342,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +349,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="E:/Sword-means-offer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -303,17 +360,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="NowCoder" />
       <recent name="Search.BreadthFirstSearch.ladderLength" />
       <recent name="Search.BreadthFirstSearch.RottingOrange" />
       <recent name="Search.BreadthFirstSearch.NaryTreeLevelOrderTraversal" />
       <recent name="Search.BreadthFirstSearch.EmpolyeeImportance" />
-      <recent name="Search.DeepthFirstSearch.SurroundedRegions" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Search" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="NowCoder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,28 +388,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.compare2">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.MagicPocketTest.kindsOfMethod">
+    <configuration name="BuyApple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NowCoder.BuyApple" />
       <module name="Ojrecord" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NowCoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DeleteCommonChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NowCoder.DeleteCommonChar" />
+      <module name="Ojrecord" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NowCoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SolutionTest.compare1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MagicPocketTest.kindsOfMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Search.BreadthFirstSearch.ladderLength.*" />
+          <option name="PATTERN" value="NowCoder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.ladderLength" />
-      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.ladderLength.SolutionTest" />
-      <option name="METHOD_NAME" value="compare1" />
+      <option name="PACKAGE_NAME" value="NowCoder" />
+      <option name="MAIN_CLASS_NAME" value="NowCoder.MagicPocketTest" />
+      <option name="METHOD_NAME" value="kindsOfMethod" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -360,19 +437,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.compare2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MagicPocketTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Search.BreadthFirstSearch.ladderLength.*" />
+          <option name="PATTERN" value="NowCoder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.ladderLength" />
-      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.ladderLength.SolutionTest" />
-      <option name="METHOD_NAME" value="compare2" />
+      <option name="PACKAGE_NAME" value="NowCoder" />
+      <option name="MAIN_CLASS_NAME" value="NowCoder.MagicPocketTest" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -383,42 +460,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.ladderLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFunction.test15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ojrecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Search.BreadthFirstSearch.ladderLength.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.ladderLength" />
-      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.ladderLength.SolutionTest" />
-      <option name="METHOD_NAME" value="ladderLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SolutionTest.ladderLength2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ojrecord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Search.BreadthFirstSearch.ladderLength.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Search.BreadthFirstSearch.ladderLength" />
-      <option name="MAIN_CLASS_NAME" value="Search.BreadthFirstSearch.ladderLength.SolutionTest" />
-      <option name="METHOD_NAME" value="ladderLength2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFunction" />
+      <option name="METHOD_NAME" value="test15" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -468,19 +516,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.SolutionTest.ladderLength" />
-      <item itemvalue="JUnit.SolutionTest.ladderLength2" />
-      <item itemvalue="JUnit.SolutionTest.compare1" />
-      <item itemvalue="JUnit.SolutionTest.compare2" />
+      <item itemvalue="JUnit.TestFunction.test15" />
+      <item itemvalue="Application.BuyApple" />
+      <item itemvalue="Application.DeleteCommonChar" />
+      <item itemvalue="JUnit.MagicPocketTest.main" />
+      <item itemvalue="JUnit.MagicPocketTest.kindsOfMethod" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.compare2" />
-        <item itemvalue="JUnit.SolutionTest.compare1" />
-        <item itemvalue="JUnit.SolutionTest.ladderLength2" />
-        <item itemvalue="JUnit.SolutionTest.ladderLength" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MagicPocketTest.kindsOfMethod" />
+        <item itemvalue="JUnit.MagicPocketTest.main" />
+        <item itemvalue="Application.DeleteCommonChar" />
+        <item itemvalue="Application.BuyApple" />
+        <item itemvalue="JUnit.TestFunction.test15" />
       </list>
     </recent_temporary>
   </component>
@@ -542,51 +590,58 @@
       <workItem from="1576912578953" duration="13192000" />
       <workItem from="1576971386605" duration="14862000" />
       <workItem from="1577065117062" duration="2763000" />
+      <workItem from="1578996507822" duration="4449000" />
+      <workItem from="1579136549125" duration="625000" />
+      <workItem from="1579351100544" duration="6109000" />
+      <workItem from="1579389494905" duration="264000" />
+      <workItem from="1579420359885" duration="7817000" />
+      <workItem from="1579479152153" duration="1075000" />
+      <workItem from="1579573707728" duration="5997000" />
+      <workItem from="1579857364673" duration="11051000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_ladderLength - 2019.12.22 at 10h 35m 43s.xml">
-      <configuration name="SolutionTest.ladderLength" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 27m 20s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 10h 35m 43s.xml">
-      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 27m 32s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 41m 49s.xml">
-      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 28m 16s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 46m 27s.xml">
-      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 42m 26s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 47m 02s.xml">
-      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 43m 10s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_ladderLength - 2019.12.22 at 11h 47m 06s.xml">
-      <configuration name="SolutionTest.ladderLength" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 43m 35s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 49m 09s.xml">
-      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 46m 03s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_ladderLength2 - 2019.12.22 at 11h 51m 45s.xml">
-      <configuration name="SolutionTest.ladderLength2" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 47m 02s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_compare1 - 2019.12.22 at 12h 17m 44s.xml">
-      <configuration name="SolutionTest.compare1" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 54m 49s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_compare2 - 2019.12.22 at 12h 19m 51s.xml">
-      <configuration name="SolutionTest.compare2" configurationId="JUnit" />
+    <history-entry file="MagicPocketTest_kindsOfMethod - 2020.01.25 at 18h 56m 09s.xml">
+      <configuration name="MagicPocketTest.kindsOfMethod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350968000" />
+    <option name="totallyTimeSpent" value="388355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48865354" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48865354" weight="0.32854864" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -594,18 +649,18 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.11584327" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.10047847" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31666666" />
       <window_info anchor="right" id="Database" order="8" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.0988075" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.68899524" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -617,7 +672,6 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="8" weight="0.12556732" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.17887564" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -630,13 +684,14 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.3492334" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="8" weight="0.12556732" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3721634" side_tool="true" weight="0.2504259" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.3492334" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3721634" side_tool="true" weight="0.2504259" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48865354" weight="0.32879046" />
@@ -702,116 +757,10 @@
           <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="112" />
+      <option name="time" value="122" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/IslandPerimeter/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgrammer/Triangle/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicProgrammer/WordBreak/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="157" column="40" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/SurroundedRegions/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/NumberOfIslands/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/FloodFill/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/EmpolyeeImportance/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/EmpolyeeImportance/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/EmpolyeeImportance/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/EmpolyeeImportance/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/Maze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2320">
-          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/RottingOrange/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/NaryTreeLevelOrderTraversal/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -900,13 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6756">
           <caret line="391" column="61" selection-start-line="391" selection-start-column="53" selection-end-line="391" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1014,24 +956,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="292" selection-start-line="292" selection-end-line="292" />
-          <folding>
-            <element signature="e#8036#8037#0" expanded="true" />
-            <element signature="e#23214#23215#0" expanded="true" />
-            <element signature="e#23241#23242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/minMutation/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="977" column="24" lean-forward="true" selection-start-line="977" selection-start-column="24" selection-end-line="977" selection-end-column="24" />
+        <state relative-caret-position="286">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/StatisticalPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/findKth.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/Finder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="1" selection-start-line="9" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/ladderLength/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Search/BreadthFirstSearch/ladderLength/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
+        <state relative-caret-position="522">
           <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1039,20 +998,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/ladderLength/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/AntiOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+        <state relative-caret-position="210">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/SodaBottles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NowCoder/SodaBottlesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="4570" selection-start-line="4570" selection-end-line="4570" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5824">
+          <caret line="241" column="43" selection-start-line="241" selection-start-column="43" selection-end-line="241" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NowCoder/TheLongestStrOfNumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/TheLongestStrOfNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/minMutation/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/Scanner.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="5226">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2131" column="40" selection-start-line="2131" selection-start-column="29" selection-end-line="2131" selection-end-column="40" />
+          <folding>
+            <element signature="e#82971#82972#0" expanded="true" />
+            <element signature="e#83020#83021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/BuyApple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/DeleteCommonChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NowCoder/MagicPocketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/MagicPocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
         </state>
       </provider>
     </entry>
