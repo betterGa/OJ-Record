@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0134f6ba-9adc-49cc-bfad-98fd4b5d9b87" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NowCoder/BuyApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NowCoder/DeleteCommonChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NowCoder/MagicPocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NowCoder/MagicPocketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NowCoder/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NowCoder/FindTimeN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NowCoder/MagicPocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NowCoder/MagicPocket.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +47,7 @@
       <file leaf-file-name="BuyApple.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/BuyApple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="1456">
               <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
             </state>
           </provider>
@@ -58,7 +56,7 @@
       <file leaf-file-name="DeleteCommonChar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/DeleteCommonChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="832">
               <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,7 +68,7 @@
       <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
+            <state relative-caret-position="53456">
               <caret line="2131" column="40" selection-start-line="2131" selection-start-column="29" selection-end-line="2131" selection-end-column="40" />
               <folding>
                 <element signature="e#82971#82972#0" expanded="true" />
@@ -80,11 +78,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MagicPocket.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MagicPocket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/MagicPocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="130">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Candy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/Candy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTimeN.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/FindTimeN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +111,7 @@
       <file leaf-file-name="MagicPocketTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/NowCoder/MagicPocketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="364">
               <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,22 +142,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestFunction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5824">
-              <caret line="241" column="43" selection-start-line="241" selection-start-column="43" selection-end-line="241" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -182,8 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DynamicProgrammer/DistinctSubsequences/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/Pocker/Dfs.java" />
         <option value="$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/Pocker/DfsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Search/DeepthFirstSearch/Pocker/PlayCardsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Search/DeepthFirstSearch/Pocker/PlayCards.java" />
@@ -233,6 +241,8 @@
         <option value="$PROJECT_DIR$/src/main/java/NowCoder/DeleteCommonChar.java" />
         <option value="$PROJECT_DIR$/src/test/java/NowCoder/MagicPocketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/NowCoder/MagicPocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/Candy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NowCoder/FindTimeN.java" />
       </list>
     </option>
   </component>
@@ -263,7 +273,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="832" />
@@ -277,9 +287,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +351,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,9 +398,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MagicPocketTest.kindsOfMethod">
+  <component name="RunManager" selected="Application.Candy">
     <configuration name="BuyApple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NowCoder.BuyApple" />
+      <module name="Ojrecord" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NowCoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NowCoder.Candy" />
       <module name="Ojrecord" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -460,23 +481,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestFunction.test15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ojrecord" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestFunction" />
-      <option name="METHOD_NAME" value="test15" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -516,19 +520,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestFunction.test15" />
       <item itemvalue="Application.BuyApple" />
       <item itemvalue="Application.DeleteCommonChar" />
       <item itemvalue="JUnit.MagicPocketTest.main" />
       <item itemvalue="JUnit.MagicPocketTest.kindsOfMethod" />
+      <item itemvalue="Application.Candy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Candy" />
         <item itemvalue="JUnit.MagicPocketTest.kindsOfMethod" />
         <item itemvalue="JUnit.MagicPocketTest.main" />
         <item itemvalue="Application.DeleteCommonChar" />
         <item itemvalue="Application.BuyApple" />
-        <item itemvalue="JUnit.TestFunction.test15" />
       </list>
     </recent_temporary>
   </component>
@@ -598,6 +602,8 @@
       <workItem from="1579479152153" duration="1075000" />
       <workItem from="1579573707728" duration="5997000" />
       <workItem from="1579857364673" duration="11051000" />
+      <workItem from="1579996808029" duration="448000" />
+      <workItem from="1580096735324" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -634,10 +640,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388355000" />
+    <option name="totallyTimeSpent" value="391291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="832" height="623" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -649,11 +656,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.10047847" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.47272727" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31666666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33031088" />
       <window_info anchor="right" id="Database" order="8" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -674,29 +681,29 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6278366" weight="0.17887564" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="8" weight="0.12556732" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32879046" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.3492334" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3721634" side_tool="true" weight="0.2504259" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48865354" weight="0.32879046" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,20 +768,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Search/BreadthFirstSearch/NaryTreeLevelOrderTraversal/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1064,7 +1057,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
+        <state relative-caret-position="53456">
           <caret line="2131" column="40" selection-start-line="2131" selection-start-column="29" selection-end-line="2131" selection-end-column="40" />
           <folding>
             <element signature="e#82971#82972#0" expanded="true" />
@@ -1075,7 +1068,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/BuyApple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="1456">
           <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
         </state>
       </provider>
@@ -1089,7 +1082,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/DeleteCommonChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="832">
           <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1099,7 +1092,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NowCoder/MagicPocketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="364">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1109,8 +1102,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/MagicPocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        <state relative-caret-position="130">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/Candy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NowCoder/FindTimeN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
