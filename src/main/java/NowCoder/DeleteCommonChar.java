@@ -18,10 +18,10 @@ public class DeleteCommonChar {
         //遍历第一个字符串
         for (int i=0;i<string1.length();i++)
         {
-            if(temp.add(string1.charAt(i))==false) {
+           if(temp.add(string1.charAt(i))==false) {
                 string1 = string1.substring(0, i) + string1.substring(i + 1, string1.length());
             i--;}
-            else temp.remove(string1.charAt(i));
+           else temp.remove(string1.charAt(i));
         }
 
     return string1;
