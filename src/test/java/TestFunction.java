@@ -241,5 +241,23 @@ System.out.println(Character.valueOf('0'));
     public void test15()
 {System.out.println("0123456".substring(2,7));}
 
+@Test
+    public void test16()
+{ArrayList<Integer> arrayList=new ArrayList<>(5);
+arrayList.add(1);
+    arrayList.add(2);
+    arrayList.add(3);
+    arrayList.add(4);
+    arrayList.add(5);
+    arrayList.remove(0);
+    System.out.println(arrayList);
+    System.out.println("size="+arrayList.size());
+}
+@Test
+    public void test17()
+{
+    String s="01234";
+    System.out.println(s.substring(5,5));
+}
 }
 
