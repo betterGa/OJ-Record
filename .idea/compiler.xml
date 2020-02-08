@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Ojrecord" />
+        <module name="Oj-record" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Oj-record" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
