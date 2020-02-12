@@ -259,5 +259,16 @@ arrayList.add(1);
     String s="01234";
     System.out.println(s.substring(5,5));
 }
+@Test
+    public void test18()
+{
+    int i=1;
+    char a='1';
+    char b='0';
+    char c=(char) '0'+1;
+    System.out.print(c);
+    //System.out.print(1);
+   // System.out.print(a);
+}
 }
 
