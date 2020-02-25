@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class TestFunction {
     @Test
@@ -273,7 +274,9 @@ arrayList.add(1);
 @Test
 public void test19()
 {
-
+char a='a';
+    ThreadLocalRandom
+System.out.println((char)(a+3));
 
 }
 }
