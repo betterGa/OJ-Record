@@ -275,7 +275,7 @@ arrayList.add(1);
 public void test19()
 {
 char a='a';
-    ThreadLocalRandom
+
 System.out.println((char)(a+3));
 
 }
